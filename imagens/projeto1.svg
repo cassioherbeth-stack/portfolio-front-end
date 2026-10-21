@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#f7f4f8"/>
+  <rect x="75" y="75" width="750" height="370" rx="14" fill="#ffffff" stroke="#d6ccd8" stroke-width="3"/>
+  <rect x="115" y="125" width="280" height="30" rx="7" fill="#e7dfea"/>
+  <rect x="115" y="185" width="560" height="20" rx="7" fill="#eee9f0"/>
+  <rect x="115" y="225" width="470" height="20" rx="7" fill="#eee9f0"/>
+  <rect x="115" y="290" width="160" height="38" rx="8" fill="#ded0e4"/>
+  <text x="450" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#777">Projeto 1</text>
+</svg>

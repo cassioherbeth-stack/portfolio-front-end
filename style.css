@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background: linear-gradient(120deg, #ffffff, #f8e8f5, #eadcf8);
+}
+
+.pagina {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.conteudo {
+  width: 560px;
+  max-width: 100%;
+}
+
+.perfil {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.perfil img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.perfil h1 {
+  font-size: 24px;
+  margin: 12px 0 6px;
+}
+
+.perfil p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.botoes a {
+  padding: 13px;
+  text-align: center;
+  text-decoration: none;
+  color: #222;
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid #999;
+  border-radius: 6px;
+}
+
+.botoes a:hover {
+  background: #fff;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.redes a {
+  color: #222;
+  font-size: 14px;
+}
+
+.voltar {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #444;
+  text-decoration: none;
+}
+
+.texto-sobre {
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid #c8beca;
+  border-radius: 8px;
+  padding: 22px;
+  line-height: 1.6;
+}
+
+.texto-sobre h2 {
+  margin-top: 0;
+}
+
+.texto-sobre p:last-child {
+  margin-bottom: 0;
+}
+
+.projetos-conteudo {
+  width: 820px;
+}
+
+.lista-projetos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid #b9afb9;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card h2 {
+  font-size: 17px;
+  margin: 14px 14px 8px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 14px 14px;
+  color: #444;
+}
+
+.card a {
+  display: inline-block;
+  margin: 0 14px 16px;
+  color: #222;
+  font-size: 14px;
+}
+
+@media (max-width: 650px) {
+  .pagina {
+    padding: 25px 15px;
+  }
+
+  .lista-projetos {
+    grid-template-columns: 1fr;
+  }
+
+  .perfil h1 {
+    font-size: 21px;
+  }
+}
